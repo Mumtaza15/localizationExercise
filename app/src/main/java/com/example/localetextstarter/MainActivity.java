@@ -9,6 +9,7 @@ import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText inputTxt;
     TextView priceTxt;
+    Button btnSubmit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,11 +52,12 @@ public class MainActivity extends AppCompatActivity {
 
         inputTxt = findViewById(R.id.input_text);
         priceTxt = findViewById(R.id.tv_total_price);
+        btnSubmit = findViewById(R.id.btn_submit);
 
-        findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
+        btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //buat unteger menjadi teks dengan parseInt
+                //buat integer menjadi teks dengan parseInt
                 int price = Integer.parseInt(inputTxt.getText().toString());
                 int totalPrice = price*100;
 
