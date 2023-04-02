@@ -24,7 +24,8 @@
 
 
     <string name="expired_label">Expired:</string>
-    <string name="input_text">Input Item:</string>
+    <string name="input_text">Enter the price per item:</string>
     <string name="submit_btn">Submit</string>
+    <string name="price_text">Total price for 100 pax:</string>
 
 </resources>

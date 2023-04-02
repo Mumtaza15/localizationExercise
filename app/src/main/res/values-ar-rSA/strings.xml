@@ -8,6 +8,7 @@
     <string name="help_text">إذا كنت بحاجة إلى مساعدة ، فاتصل بقسم الدعم لدينا.</string>
     <string name="dial_log_message">لا يمكن حل التطبيق لـ ACTION_DIAL Intent.</string>
     <string name="expired_label">عنصر الإدخال:</string>
-    <string name="input_text">:عنصر الإدخال</string>
+    <string name="input_text">أدخل السعر لكل عنصر:</string>
     <string name="submit_btn">يُقدِّم</string>
+    <string name="price_text">"السعر الاجمالي لـ 100 شخص: "</string>
 </resources>

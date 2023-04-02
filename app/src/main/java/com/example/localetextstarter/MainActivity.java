@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         expiredTextView.setText(formatDate);
 
         inputTxt = findViewById(R.id.input_text);
-        priceTxt = findViewById(R.id.tv_price);
+        priceTxt = findViewById(R.id.tv_total_price);
 
         findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
             @Override
